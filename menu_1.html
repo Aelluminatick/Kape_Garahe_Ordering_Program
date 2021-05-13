@@ -1,0 +1,456 @@
+<html>
+<script type="text/javascript" src="design.js"></script>
+<head>
+<style>
+.myButton {
+	box-shadow:inset 0px 5px 3px 0px #6b1c13;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#7d5d3b;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Impact;
+	font-size:24px;
+	padding:8px 40px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #4d3534;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color:#634b30;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton2 {
+	box-shadow:inset 0px 5px 3px 0px #6b1c13;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#7d5d3b;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Impact;
+	font-size:24px;
+	padding:8px 50px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #4d3534;
+}
+.myButton2:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color:#634b30;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+.myButton3 {
+	box-shadow:inset 0px 5px 3px 0px #6b1c13;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#7d5d3b;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Impact;
+	font-size:24px;
+	padding:8px 56px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #4d3534;
+}
+.myButton3:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color:#634b30;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+.tableUI {
+  text-align:center;
+  font-family:impact;
+  color:white;font-size:24;
+  border-color:#8c6238;
+  border-style:solid;
+}
+.container1 {
+background-color:#3373CC;
+}
+
+.price{
+text-align:center;
+color:white;
+background-color:#8c6238;
+font-family:impact;
+border:0px none;
+font-size:20px;
+}
+
+.price{
+text-align:center;
+color:white;
+background-color:#8c6238;
+font-family:impact;
+border:0px none;
+font-size:20px;
+}
+
+.price{
+text-align:center;
+color:white;
+background-color:#8c6238;
+font-family:impact;
+border:0px none;
+font-size:20px;
+}
+
+.price{
+text-align:center;
+color:white;
+background-color:#8c6238;
+font-family:impact;
+border:0px none;
+font-size:20px;
+}
+
+.price{
+text-align:center;
+color:white;
+background-color:#8c6238;
+font-family:impact;
+border:0px none;
+font-size:20px;
+}
+
+.price{
+text-align:center;
+color:white;
+background-color:#8c6238;
+font-family:impact;
+border:0px none;
+font-size:20px;
+}
+
+.price_coffee{
+text-align:center;
+color:white;
+background-color:#8c6238;
+font-family:impact;
+border:0px none;
+font-size:20px;
+}
+
+.price{
+text-align:center;
+color:white;
+background-color:#8c6238;
+font-family:impact;
+border:0px none;
+font-size:20px;
+}
+
+.price{
+text-align:center;
+color:white;
+background-color:#8c6238;
+font-family:impact;
+border:0px none;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+	<table>
+		<th><img src="Banner.jpg" width=1500 height=300>
+	</table>
+	<table class="tableUI" cellspacing=5 cellpadding=5>
+		<th><img src="Logo.jpg" width=200 height=150>
+			<tr>
+				<td><a href="#" class="myButton">Order Food</a>
+			</tr>
+			<tr>
+				<td><a href="#" class="myButton2">About Us</a>
+			</tr>
+			<tr>
+				<td><a href="#" class="myButton3">Log-out</a>
+			</tr>
+	</table>
+	<table bgcolor=#8c6238 style='position:absolute;top:312px;left:240px;border-color:#8c6238;
+  border-style:solid;font-family:impact;font-size:26;color:white;'>
+<tr>
+	<td class=container1>FOOD
+	<td class=container1>PRICE
+	<td class=container1>QTY
+
+<tr>
+
+	<!----REVISED BY JOE----->
+	<!----Added:------------->
+	<!----Amt would now represent each quantity input on our js--->
+<td colspan="3" bgcolor=orange>COFFEE BASED(FRAPPE)
+<tr>
+<form name="form1" id="form1" runat="server">
+<td>Mocha
+<td><input type ="text" class="price_coffee" value="130" size="4" name="pr1" id="price1" readonly">
+<td><input type="number" class="amt" max="10" min="0" id="item1">
+<tr>
+<td>White Mocha  
+<td><input type ="text" class="price_coffee" value="130" size="4" name="pr1" id="price2" readonly>
+<td><input type="number" max="10" class="amt"  min="0"  id="item2">
+<tr>
+<td>Caramel
+<td><input type ="text" class="price_coffee" value="130" size="4" name="pr1" id="price3" readonly>
+<td><input type="number" max="10" class="amt" min="0"  id="item3">
+<tr>
+<td>Hazelnut
+<td><input type ="text" class="price_coffee" value="130" size="4" name="pr1" id="price4" readonly>
+<td><input type="number" max="10" class="amt" min="0"  id="item4">
+<tr>
+<td>Almond Delight
+<td><input type ="text" class="price_coffee" value="140" size="4" name="pr1" id="price5" readonly>
+<td><input type="number" max="10" class="amt" min="0" id="item5">
+<tr>
+<td>White Forest 
+<td><input type ="text" class="price_coffee" value="140" size="4" name="pr1" id="price6" readonly>
+<td><input type="number" max="10"  class="amt" min="0" id="item6">
+<tr>
+<td>Black Forest
+<td><input type ="text" class="price_coffee" value="140" size="4" name="pr1" id="price7" readonly>
+<td><input type="number" max="10" class="amt" min="0" id="item7">
+<tr>
+	<!----------------------------------------------->
+	<!------------CHANGE OF REVISION----------------->
+
+</form>
+<td colspan="3" bgcolor=orange>CREAM BASED(FRAPPE)
+<tr>
+<form name="form2" id="form2" runat="server">
+<td>Vanilla 
+<td><input type ="text" class="price" value="130" id="price8" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty8">
+<tr>
+<td>Taro
+<td><input type ="text" class="price" value="130" id="price9" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty9">
+<tr>
+<td>Choco Chip
+<td><input type ="text" class="price" value="130" id="price10" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty10">
+<tr>
+<td>White Choco Chip
+<td><input type ="text" class="price" value="130" id="price11" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty11">
+<tr>
+<td>Cookies and Cream
+<td><input type ="text" class="price" value="140" id="price12" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty12">
+<tr>
+<td>Salted Caramel
+<td><input type ="text" class="price" value="130" id="price13" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty13">
+<tr>
+<td>Macha
+<td><input type ="text" class="price" value="130" id="price14" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty14">
+<tr>
+<td>Strawberry Oreo
+<td><input type ="text" class="price" value="140" id="price15" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty15">
+<tr>
+<td>Marcha Oreo
+<td><input type ="text" class="price" value="140" id="price16" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty16">
+<tr>
+</form>
+<td colspan="3" bgcolor=orange>ICED COFFEE
+<tr>
+<form name="form3" id="form3" runat="server">
+<td>Iced Mocha
+<td><input type ="text" class="price" id="price17" value="120" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty17">
+<tr>
+<td>Iced White Mocha
+<td><input type ="text" class="price"  id="price18"  value="120" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty18">
+<tr>
+<td>Iced Caramel Macchiato
+<td><input type ="text" class="price"  id="price19"  value="120" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty19">
+<tr>
+<td>Iced Almond Delight
+<td><input type ="text" class="price"  id="price20" value="120" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty20">
+<tr>
+<td>Iced Hazelnut
+<td><input type ="text" class="price"  id="price21"  value="120" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty21">
+<tr>
+<td>Iced Vanilla
+<td><input type ="text" class="price"  id="price22"value="120" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty22">
+<tr>
+</form>
+<td colspan="3" bgcolor=orange>HOT DRINKS
+<tr>
+<form name="form4" id="form4" runat="server">
+<td>Cafe Americano
+<td><input type ="text" class="price"  id="price23"  value="90" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty23">
+<tr>
+<td>Hazelnut Latte
+<td><input type ="text" class="price" id="price24"   value="100" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty24">
+<tr>
+<td>Cafe Latte
+<td><input type ="text" class="price" id="price25"    value="110" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty25">
+<tr>
+<td>Cappuccino
+<td><input type ="text" class="price" id="price26"    value="100" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty26">
+<tr>
+<td>Cafe Mocha
+<td><input type ="text" class="price" id="price27"    value="110" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty27">
+<tr>
+<td>White Cage Mocha
+<td><input type ="text" class="price" id="price28"    value="110" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty28">
+<tr>
+<td>Caramel Macchiato
+<td><input type ="text" class="price" id="price29"   value="110" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty29">
+<tr>
+<td>Almond Delight Latte
+<td><input type ="text" class="price" id="price30"    value="110" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty30">
+<tr>
+<td>Hot Choco 
+<td><input type ="text" class="price" id="price31"    value="100" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty31">
+</tr>
+</table>
+</form>
+<table bgcolor=#8c6238 style='position:absolute;top:312px;left:640px;border-color:#8c6238;
+  border-style:solid;font-family:impact;font-size:26;color:white;'> 
+<tr>
+	<td class=container1>FOOD
+	<td class=container1>PRICE
+	<td class=container1>QTY
+
+
+<tr>
+<td colspan="3" bgcolor=orange>SMOOTHIES(16OZ.)
+<tr>
+<form name="form5" id="form5" runat="server">
+<td>Strawberry
+<td><input type ="text" class="price" id="price32"   value="140" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty32">
+<tr>
+<td>MixedBerries
+<td><input type ="text" class="price" id="price33"   value="140" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty33">
+<tr>
+<td>Raspberry
+<td><input type ="text" class="price"  id="price34"   value="140" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty34">
+<tr>
+<td>MILK TEA (22oz.)
+<td><input type ="text" class="price"  id="price35"   value="100" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty35">
+<tr>
+</form>
+<td colspan="3" bgcolor=orange>SERIES BOTTLE
+<tr>
+<form name="form6" id="form6" runat="server">
+<td>Wintermelon
+<td><input type ="text" class="price"  id="price36"   value="60" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty36">
+<tr>
+<td>RSC Dark Choco
+<td><input type ="text" class="price" id="price37" value="60" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty37">
+<tr>
+<td>Okinawa
+<td><input type ="text" class="price" id="price38" value="60" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty38">
+<tr>
+<td>Hokkaido
+<td><input type ="text" class="price" id="price39" value="60" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty39">
+<tr>
+<td>Taro
+<td><input type ="text" class="price" id="price40"  value="60" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty40">
+<tr>
+</form>
+<td colspan="3" bgcolor=orange>FLAVORED SODA(16oz.) P80
+<tr>
+<form name="form7" id="form7" runat="server">
+<td>Strawberry
+<td><input type ="text" class="price" id="price41"  value="80" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty41">
+<tr>
+<td>Kiwi
+<td><input type ="text" class="price" id="price42"  value="80" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty42">
+<tr>
+<td>Raspberry
+<td><input type ="text" class="price" id="price43" value="80" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty43">
+<tr>
+<td>Blueberry
+<td><input type ="text" class="price" id="price44"  value="80" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty44">
+<tr>
+</form>
+<td colspan="3" bgcolor=orange>OTHER DRINKS
+<tr>
+<form name="form8" id="form8" runat="server">
+<td>Bottled Water
+<td><input type ="text" class="price" id="price45" value="15" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty45">
+<tr>
+<td>Pinapple Juice
+<td><input type ="text" class="price" id="price46" value="50" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty46">
+<tr>
+<td>Coke Mismo
+<td><input type ="text" class="price" id="price47" value="20" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty47">
+<tr>
+<td>Royal Mismo
+<td><input type ="text" class="price" id="price48" value="20" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty48">
+<tr>
+<td>Sprite Mismo 
+<td><input type ="text" class="price" id="price49" value="20" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty49">
+<tr>
+<td>Coke 1.5L
+<td><input type ="text" class="price" id="price50" value="100" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty50">
+<tr>
+<td>Sprite 1.5L
+<td><input type ="text" class="price" id="price51" value="100" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty51">
+<tr>
+<td>Royal 1.5L
+<td><input type ="text" class="price" id="price52" value="100" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty52">
+<tr>
+<td colspan="3" bgcolor=orange>TOTAL
+<tr>
+</form>
+<td>Amount Due:<input type ="text" id="totalsum" size="9" readonly><td><input type ="button" value="Compute" onclick="getTotal()">
+<td><input type ="button" value="Receipt" onclick="receipt()">
+</tr>
+</table>
+	<table style='position:absolute;left:1000px;top:312px'>
+		<td><img src='Logo.jpg' width=400 height=400>
+	</table>
+
+</body>
+</html>
