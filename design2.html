@@ -1,0 +1,251 @@
+<html>
+<title>Kape Garahe</title>
+<head>
+<script src="Scripts/design2.js">
+</script>
+</head>
+<body>
+<style>
+
+</style>
+<form action="design2.php" method="GET">
+<table align=center border=0 width=50% cellspacing=5 cellpadding=5>
+<tr>
+<td colspan="3" >COFFEE BASED(FRAPPED)	
+
+<tr>
+<td><input type="checkbox" value="Mocha" name="cf[]" id="x" onclick="EnableTextbox(this)">Mocha
+<td><input type ="text" class="price" value="130" id="price1" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty1" name="qty[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="White Mocha" id="x2" name="cf[]" onclick="EnableTextbox2(this)" >White Mocha
+<td><input type ="text" class="price" value="130" id="price2" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty2" name="qty[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Caramel" id="x3" name="cf[]" onclick="EnableTextbox3(this)">Caramel
+<td><input type ="text" class="price" value="130" id="price3" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty3" name="qty[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Hazelnut" id= "x4" name="cf[]" onclick="EnableTextbox4(this)">Hazelnut
+<td><input type ="text" class="price" value="130" id="price4" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty4" name="qty[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Almond Delight" id= "x5"  name="cf[]" onclick="EnableTextbox5(this)">Almond Delight
+<td><input type ="text" class="price" value="140" id="price5" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty5" name="qty[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="White Forest" id= "x6"   name="cf[]" onclick="EnableTextbox6(this)">White Forest 
+<td><input type ="text" class="price" value="140" id="price6" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty6" name="qty[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Black Forest" id= "x7"  name="cf[]" onclick="EnableTextbox7(this)">Black Forest
+<td><input type ="text" class="price" value="140" id="price7" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty7" name="qty[]" disabled="disabled">
+<tr>
+<td colspan="3" >CREAM BASED(FRAPPED)
+<tr>
+<td><input type="checkbox" value="Vanilla" name="crf[]" id="x8" onclick="EnableTextbox8(this)">Vanilla
+<td><input type ="text" class="price" value="130" id="price8" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty8" name="qty1[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Taro" id="x9" name="crf[]" onclick="EnableTextbox9(this)" >Taro
+<td><input type ="text" class="price" value="130" id="price9" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty9" name="qty1[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Choco Chip" id="x10" name="crf[]" onclick="EnableTextbox10(this)">Choco Chip
+<td><input type ="text" class="price" value="130" id="price10" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty10" name="qty1[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="White Choco Chip" id= "x11" name="crf[]" onclick="EnableTextbox11(this)">White Choco Chip
+<td><input type ="text" class="price" value="130" id="price11" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty11" name="qty1[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Cookies and Cream" id= "x12"  name="crf[]" onclick="EnableTextbox12(this)">Cookies and Cream
+<td><input type ="text" class="price" value="140" id="price12" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty12" name="qty1[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Salted Caramel" id= "x13"   name="crf[]" onclick="EnableTextbox13(this)">Salted Caramel 
+<td><input type ="text" class="price" value="130" id="price13" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty13" name="qty1[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Macha" name="crf[]" id="x14" onclick="EnableTextbox14(this)">Macha
+<td><input type ="text" class="price" value="130" id="price14" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty14" name="qty1[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Strawberry Oreo" id="x15" name="crf[]" onclick="EnableTextbox15(this)" >Strawberry Oreo
+<td><input type ="text" class="price" value="140" id="price15" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty15" name="qty1[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Matcha Oreo" id="x16" name="crf[]" onclick="EnableTextbox16(this)">Matcha Oreo
+<td><input type ="text" class="price" value="140" id="price16" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty16" name="qty1[]" disabled="disabled">
+<tr>
+<td colspan="3" >ICED COFFEE
+<tr>
+<td><input type="checkbox" value="Iced Mocha" name="ic[]" id="x17" onclick="EnableTextbox17(this)">Iced Mocha
+<td><input type ="text" class="price" value="120" id="price17" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty17" name="qty2[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Iced White Mocha" id="x18" name="ic[]" onclick="EnableTextbox18(this)" >Iced White Mocha
+<td><input type ="text" class="price" value="120" id="price18" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty18" name="qty2[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Iced Caramel Macchiato" id="x19" name="ic[]" onclick="EnableTextbox19(this)">Iced Caramel Macchiato
+<td><input type ="text" class="price" value="120" id="price19" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty19" name="qty2[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Iced Almond Delight" id= "x20" name="ic[]" onclick="EnableTextbox20(this)">Iced Almond Delight
+<td><input type ="text" class="price" value="120" id="price20" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty20" name="qty2[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Iced Hazelnut" id= "x21"   name="ic[]" onclick="EnableTextbox21(this)">Iced Hazelnut
+<td><input type ="text" class="price" value="120" id="price21" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty21" name="qty2[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Iced Vanilla" id= "x22"  name="ic[]" onclick="EnableTextbox22(this)">Iced Vanilla
+<td><input type ="text" class="price" value="120" id="price22" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty22" name="qty2[]" disabled="disabled">
+<tr>
+<td colspan="3" >HOT DRINKS
+<tr>
+<td><input type="checkbox" value="Cafe Americano" name="hd[]" id="x23" onclick="EnableTextbox23(this)">Cafe Americano
+<td><input type ="text" class="price" value="90" id="price23" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty23" name="qty3[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Hazelnut Latte" id="x24" name="hd[]" onclick="EnableTextbox24(this)" >Hazelnut Latte
+<td><input type ="text" class="price" value="100" id="price24" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty24" name="qty3[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Cafe Latte" id="x25" name="hd[]" onclick="EnableTextbox25(this)">Cafe Latte
+<td><input type ="text" class="price" value="110" id="price25" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty25" name="qty3[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Cappucino" id= "x26" name="hd[]" onclick="EnableTextbox26(this)">Cappuccino
+<td><input type ="text" class="price" value="100" id="price26" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty26" name="qty3[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Cafe Mocha" id= "x27"  name="hd[]" onclick="EnableTextbox27(this)">Cafe Mocha
+<td><input type ="text" class="price" value="110" id="price27" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty27" name="qty3[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="White Cage Mocha" id= "x28"   name="hd[]" onclick="EnableTextbox28(this)">White Cage Mocha
+<td><input type ="text" class="price" value="110" id="price28" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty28" name="qty3[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Caramel Macchiato" id= "x29"  name="hd[]" onclick="EnableTextbox29(this)">Caramel Macchiato
+<td><input type ="text" class="price" value="110" id="price29" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty29" name="qty3[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Almond Delight Latte" name="hd[]" id="x30" onclick="EnableTextbox30(this)">Almond Delight Latte
+<td><input type ="text" class="price" value="110" id="price30" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty30" name="qty3[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Hot Choco" id="x31" name="hd[]" onclick="EnableTextbox31(this)" >Hot Choco
+<td><input type ="text" class="price" value="100" id="price31" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty31" name="qty3[]" disabled="disabled" >
+<tr>
+<td colspan="3" >SMOOTHIES(16OZ.)
+<tr>
+<td><input type="checkbox" value="Strawberry" name="sm[]" id="x32" onclick="EnableTextbox32(this)">Strawberry
+<td><input type ="text" class="price" value="140" id="price32" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty32" name="qty4[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Mixed Berries" id="x33" name="sm[]" onclick="EnableTextbox33(this)" >MixedBerries
+<td><input type ="text" class="price" value="140" id="price33" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty33" name="qty4[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Raspberry" id="x34" name="sm[]" onclick="EnableTextbox34(this)">Raspberry
+<td><input type ="text" class="price" value="140" id="price34" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty34" name="qty4[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="MILKTEA" id= "x35" name="sm[]" onclick="EnableTextbox35(this)">MILK TEA(22.oz)
+<td><input type ="text" class="price" value="100" id="price35" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty35" name="qty4[]" disabled="disabled">
+<tr>
+<td colspan="3" >SERIES BOTTLE
+<tr>
+<td><input type="checkbox" value="Wintermelon" id= "x36"  name="sb[]" onclick="EnableTextbox36(this)">Wintermelon
+<td><input type ="text" class="price" value="60" id="price36" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty36" name="qty5[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="RSC Dark Choco" id= "x37"   name="sb[]" onclick="EnableTextbox37(this)">RSC Dark Choco
+<td><input type ="text" class="price" value="60" id="price37" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty37" name="qty5[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Okinawa" id= "x38"  name="sb[]" onclick="EnableTextbox38(this)">Okinawa
+<td><input type ="text" class="price" value="60" id="price38" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty38" name="qty5[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Hokkaido" name="sb[]" id="x39" onclick="EnableTextbox39(this)">Hokkaido
+<td><input type ="text" class="price" value="60" id="price39" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty39" name="qty5[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Taro" id="x40" name="sb[]" onclick="EnableTextbox40(this)" >Taro
+<td><input type ="text" class="price" value="60" id="price40" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty40" name="qty5[]" disabled="disabled" >
+<tr>
+<td colspan="3" >FLAVORED SODA(16oz.)
+<tr>
+<td><input type="checkbox" value="Strawberry" id= "x41"  name="fs[]" onclick="EnableTextbox41(this)">Strawberry
+<td><input type ="text" class="price" value="80" id="price41" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty41" name="qty6[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Kiwi" id= "x42"   name="fs[]" onclick="EnableTextbox42(this)">Kiwi
+<td><input type ="text" class="price" value="80" id="price42" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty42" name="qty6[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Raspberry" id= "x43"  name="fs[]" onclick="EnableTextbox43(this)">Raspberry
+<td><input type ="text" class="price" value="80" id="price43" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty43" name="qty6[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Blueberry" name="fs[]" id="x44" onclick="EnableTextbox44(this)">Blueberry
+<td><input type ="text" class="price" value="80" id="price44" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty44" name="qty6[]" disabled="disabled" >
+<tr>
+<td colspan="3" >FOODS
+<tr>
+<td><input type="checkbox" value="Sisiglog" id= "x45"  name="fd[]" onclick="EnableTextbox45(this)">Sisiglog
+<td><input type ="text" class="price" value="130" id="price45" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty45" name="qty7[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Bangsilog" id= "x46"   name="fd[]" onclick="EnableTextbox46(this)">Bangsilog
+<td><input type ="text" class="price" value="130" id="price46" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty46" name="qty7[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Carbonara" id= "x47"  name="fd[]" onclick="EnableTextbox47(this)">Carbonara
+<td><input type ="text" class="price" value="120" id="price47" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty47" name="qty7[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Cheesy Burger" id= "x48"  name="fd[]" onclick="EnableTextbox48(this)">Cheesy Burger
+<td><input type ="text" class="price" value="130" id="price48" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty48" name="qty7[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Chicken Wings" name="fd[]" id="x49" onclick="EnableTextbox49(this)">Chicken Wings
+<td><input type ="text" class="price" value="140" id="price49" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty49" name="qty7[]" disabled="disabled" >
+<tr>
+<td><input type="checkbox" value="Meaty Spaghetti" id= "x50"  name="fd[]" onclick="EnableTextbox50(this)">Meaty Spaghetti
+<td><input type ="text" class="price" value="120" id="price50" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty50" name="qty7[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Crispy Pata" id= "x51"   name="fd[]" onclick="EnableTextbox51(this)">Crispy Pata
+<td><input type ="text" class="price" value="650" id="price51" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty51" name="qty7[]" disabled="disabled">
+<tr>
+<td><input type="checkbox" value="Clubhouse" id= "x52"  name="fd[]" onclick="EnableTextbox52(this)">Clubhouse
+<td><input type ="text" class="price" value="150" id="price52" size="4" readonly>
+<td><input type="number" max="10" min="0" id="qty52" name="qty7[]" disabled="disabled">
+
+
+
+<br>
+<td><input type="Submit" name="Submit" value="Submit">
+</form>
+<script src="Scripts/compute.js">
+</script>
+<td><input type="Button" value="Get Total" onclick="getTotal()"><td><input type="Text" id="totalsum">
+<td><input type=reset name="reset" value="Reset">
+</table>
+</body>
+
+</html>
